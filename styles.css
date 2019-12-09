@@ -10,53 +10,41 @@ final
 html {
     background-color: #cccc99;
     color: Black;
-}
-nav{
     text-align: center;
 }
-.container {
-    padding:0;
+/*Header Rules*/
+.container{
+    background-color: #cccc99;
+    text-align: left;
+    align-content: left;
 }
-body {
-    font-family: 'Calistoga', cursive;
-    width: 80%;
-    margin: auto;
-    padding: 50px;
-    position:relative;
+header{
+    margin:5px;
+    font-size: 2em;
     background-color: #cccc99;
 }
-.nopadding {
-    padding:15px 0px;
-    margin:0;
+.main{
+    text-align: center;
+}
+body {
+    background-color: #cccc99;
+    text-align: center;
+}
+.container{
+    background-color: #cccc99;
+}
+iframe{
+    text-align: center;
 }
   
 /* Header Rules */
-header {
-    background-color:#b4b484;
-    text-shadow: 2px 2px 5px black;
-    border-bottom: 3px black;
-    box-shadow: 0px 5px 5px;
-    text-align: left;
-  }
-  /* Navigation Styles  */
-a:link {
-    color: black;
-}
-a:hover {
-    color: #b4b484;
-}
-a:visited {
-    color:rgb(39, 37, 37);
-}
-      
-  
-  
+  /* Navigation Styles with Bootstrap */
   /* Section Styles */
-section {
+#section {
     margin: auto;
-    width: 75%;
+    width: 85%;
     border: 3px solid black;
-    
+    text-align: center;
     background-color: #b4b484;
 }
       
@@ -65,22 +53,10 @@ section {
 footer {
     text-align: center;
     background-color:#b4b484;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 1px black;
     border-bottom: 3px black double;
-    box-shadow: 0px 5px 5px;
+    box-shadow: 0px 2px 2px;
     text-decoration: none;
 }	
 
-iframe {
-    text-align: center;
-}
-
-.carouselExampleIndicators {
-    text-align: center;
-    background-color:#b4b484;
-}
-.navbar navbar-expand-lg navbar-light bg-light {
-    background-color:#b4b484;
-}
-      
   
