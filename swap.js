@@ -1,13 +1,12 @@
-var randomNumber = Math.floor(Math.random() * 2);
+//Don Seo. 12.10.2019. Final. Swap.js File
+//get rando/m number and variable/
 
+
+//create function to showimage based on random number
 function showImg() {  
-if (randomNumber == 0) {
-    document.getElementById("3pic").src = "mainTrain.jpg"
-} else if (randomNumber == 1) {
-    document.getElementById("3pic").src = "image5.jpg"
-} else {
-    document.getElementById("3pic").src = "image6.jpg"
+var imgs=new Array["images/mainTrain.jpg","images/image5.jpg","images/image6.jpg"];
+var randomNumber = Math.floor(Math.random() * 3);
+document.getElementById("pic").innerHTML=imgs[randomNumber];
+setTimeout("showImg()", 1000);
 }
-function startTimer() {
-    setInterval(showImg,3);
-}}
+window.onload=showImg;

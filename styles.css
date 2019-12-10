@@ -32,6 +32,11 @@ body {
 }
 .container{
     background-color: #cccc99;
+    margin: auto;
+    width: 85%;
+    border: 3px solid black;
+    text-align: center;
+    background-color: #b4b484;
 }
 iframe{
     text-align: center;
@@ -46,6 +51,7 @@ iframe{
     border: 3px solid black;
     text-align: center;
     background-color: #b4b484;
+    text-decoration: none;
 }
       
       
@@ -58,5 +64,24 @@ footer {
     box-shadow: 0px 2px 2px;
     text-decoration: none;
 }	
+/*Calendar Photo Style */
+table, th, td{
+    border: 1px solid black;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    background-color: #cccc99;
+    align-content: center;
+    font-size:1.1em;
+    font-style: oblique;
+    width: 80%;
+    height: 80%;
+}
+caption{
+    color:white;
+    font-size: 50px;
+    padding:10px;
+}
+
 
   
