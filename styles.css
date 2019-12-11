@@ -15,8 +15,7 @@ html {
 /*Header Rules*/
 .container{
     background-color: #cccc99;
-    text-align: left;
-    align-content: left;
+    align-content: center;
 }
 header{
     margin:5px;
@@ -29,6 +28,7 @@ header{
 body {
     background-color: #cccc99;
     text-align: center;
+    font-size: 12px;
 }
 .container{
     background-color: #cccc99;
@@ -46,7 +46,7 @@ iframe{
 /* Header Rules */
   /* Navigation Styles with Bootstrap */
   /* Section Styles */
-#section {
+.section {
     margin: auto;
     width: 85%;
     border: 3px solid black;
@@ -72,9 +72,9 @@ table, th, td{
     margin: 50px;
     text-align: center;
     background-color: #cccc99;
-    align-content: center;
     font-size:1.1em;
     font-style: oblique;
+    align-content: center;
     width: 80%;
     height: 80%;
 }
@@ -83,6 +83,5 @@ caption{
     font-size: 50px;
     padding:10px;
 }
-
 
   
